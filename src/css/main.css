@@ -7,3 +7,21 @@
   background-color: #221F1F;
   color: #F5F5F1;
 }
+
+ .header {
+  margin-top: 20px;
+  margin-right: 20%;
+  margin-left: 20%;
+  text-align: center;
+  border: 5px outset #333030;
+  border-radius: 20% 20% 30% 30%;
+  padding: 1% 1% 1% 1%;
+  background-color: #E50914;
+}
+
+.home-image {
+  width: 300px;
+  height: 300px;
+  max-height: 500px;
+  overflow: hidden;
+}
