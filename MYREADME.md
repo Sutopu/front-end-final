@@ -13,3 +13,8 @@ Bootstrap (css framework)
 
 to run development server:
 npm start
+
+
+notes:
+currently i'm pretty sure that I'm not using bootstrap correctly with React. It seems like there is a package to
+install with npm. currently I just link it in index.html

@@ -1,12 +1,14 @@
 //this lets us display different components at different URI's.
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 //there has to be a better way of importing components that are stored in separate files.
-import Home from "./components/Home";
-import Hangman from "./components/hangman/Hangman";
-import About from "./components/About";
-import Cleverishbot from "./components/Cleverishbot";
-import RockPaperScissors from "./components/RockPaperScissors";
-import Navbar from "./components/nav/Navbar";
+import Home from "./Home";
+import Hangman from "./hangman/Hangman";
+import About from "./About";
+import Cleverishbot from "./Cleverishbot";
+import RockPaperScissors from "./RockPaperScissors";
+import Navbar from "./nav/Navbar";
+
+import "../css/main.css";
 
 function App() {
   return (
