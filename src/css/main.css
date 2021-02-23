@@ -1,3 +1,5 @@
+
+
 .navbarColor {
   background-color: #E50914;
   color: #F5F5F1
@@ -13,7 +15,7 @@
   margin-right: 20%;
   margin-left: 20%;
   text-align: center;
-  border: 5px outset #333030;
+  border: 5px solid #110E0E;
   border-radius: 20% 20% 30% 30%;
   padding: 1% 1% 1% 1%;
   background-color: #E50914;
@@ -23,5 +25,17 @@
   width: 300px;
   height: 300px;
   max-height: 500px;
-  overflow: hidden;
+  border: 5px solid #110E0E;
+  border-radius: 50% 50% 50% 50%;
+}
+
+.button {
+  background-color: #E50914;
+  color: #F5F5F1
+}
+
+.centerEverything {
+  margin-top: 15%;
+  margin-bottom: 15%;
+  text-align: center;
 }
